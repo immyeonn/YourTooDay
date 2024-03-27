@@ -1,0 +1,44 @@
+.diarycover {
+    max-width: 100%;
+    height: 250px;
+}
+
+#coverImg {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.goto-write {
+    margin: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.goto-write-btn img{
+    width: 80px;
+    height: 25px;
+}
+
+.diary-list {
+    width: auto;
+    overflow-y: scroll;
+    max-height: 450px;
+}
+
+.list {
+    display: flex;
+    margin: 24px 40px 24px 30px;
+}
+
+.list-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 15px;
+}
+
+.name {
+    font-size: 15px;
+    color: gray;
+}
